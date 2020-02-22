@@ -1,0 +1,21 @@
+#
+# markup configuration for testing
+#
+version: 1
+
+markup:
+  foo:
+    match: paragraph
+    classnames:
+      - foo
+    attribute:
+      bar: baz
+    wrap: .qux
+    type: markdown
+  corge:
+    match: p
+    classnames:
+      - corge
+    attribute:
+      qux: grault
+    wrap: .waldo
